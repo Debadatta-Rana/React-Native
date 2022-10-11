@@ -13,14 +13,21 @@ const ImageScreen = () =>{
 
         <ImageDetails 
             title="Forest" 
-              imageSource={require('https://thumbs.dreamstime.com/b/cutout-rock-surrounded-pine-trees-fir-forest-garden-design-isolated-white-background-decorative-shrub-landscaping-225480325.jpg')}/>
-        <ImageDetails
-             title="Beach"
-               imageSource={require('https://thumbs.dreamstime.com/z/beach-papua-new-guinea-153569683.jpg')}/>
-        <ImageDetails 
-             title="Mountain" 
-               imageSource={require('https://thumbs.dreamstime.com/z/wheat-field-mountain-country-houses-khuzestan-province-iran-229047805.jpg')} />
-
+              imageSource={require('../assets/Images/download.jpg')}
+              score={10}
+              />
+              
+              <ImageDetails 
+            title="Beach" 
+              imageSource={require('../assets/Images/beach.jpg')}
+              score={7}
+              />
+              <ImageDetails 
+            title="mountain" 
+              imageSource={require('../assets/Images/mountain.jpg')}
+              score={5}
+              />
+              
         </View>
     );
 };
